@@ -1,0 +1,2 @@
+D:\Unity\10.2023 semester\MonstaTds\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Unity\10.2023 semester\MonstaTds\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
