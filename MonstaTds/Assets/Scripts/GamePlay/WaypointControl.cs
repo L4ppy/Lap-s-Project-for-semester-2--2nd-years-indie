@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaypointControl : MonoBehaviour
 {
-    [SerializeField] public static Transform[] points;
+    public static Transform[] points;
 
     private void Awake()
     {
