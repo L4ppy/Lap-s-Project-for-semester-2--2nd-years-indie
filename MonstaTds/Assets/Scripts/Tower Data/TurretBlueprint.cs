@@ -6,11 +6,11 @@ public class TurretBlueprint : ScriptableObject
 {
 	public string Name;
 	public GameObject prefab;
-    public GameObject upgradedPrefab;
+    public GameObject bulletTypes;
     public int cost;
     public float damage;
     public float fireRate;
-    public float fireCooldown;
+    public float fireCoolDown;
     public float range;
 	
 	public int upgradeCost;

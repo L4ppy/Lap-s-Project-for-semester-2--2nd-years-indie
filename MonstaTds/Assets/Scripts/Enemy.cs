@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     public GameObject deathEffect;
 
     [Header("Unity Stuff")]
-    public Image healthBar;
+    //public Image healthBar;
 
     private bool isDead = false;
 
@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     {
         health -= amount;
 
-        healthBar.fillAmount = health / startHealth;
+        //healthBar.fillAmount = health / startHealth;
 
         if (health <= 0 && !isDead)
         {

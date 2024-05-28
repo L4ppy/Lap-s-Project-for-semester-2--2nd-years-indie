@@ -7,13 +7,7 @@ public class Turret : MonoBehaviour
 
     private Transform target;
 
-    [Header("Attribute")]
-
     
-    private float range;
-    private float fireRate;
-    private float fireCoolDown;
-    private int cost;
     [Header("UnitySetupFieldS")]
 
     public float turnpeed;
@@ -29,12 +23,7 @@ public class Turret : MonoBehaviour
     {
         
         InvokeRepeating("updateTarget", 0f, 0.5f);
-
         
-        range = turretData.range;
-        fireRate = turretData.fireRate;
-        fireCoolDown = turretData.fireCooldown;
-        cost = turretData.cost;
     }
 
     // Update is called once per frame
@@ -50,13 +39,13 @@ public class Turret : MonoBehaviour
         partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
 
 
-        if (fireCoolDown <= 0f)
+        if (turretData.fireCoolDown <= 0f)
         {
             Shoot();
-            fireCoolDown = 1f / fireRate;
+            turretData.fireCoolDown = 1f / turretData.fireRate;
         }
 
-        fireCoolDown -= Time.deltaTime;
+        turretData.fireCoolDown -= Time.deltaTime;
     }
 
     void Shoot()
@@ -84,7 +73,7 @@ public class Turret : MonoBehaviour
             }
         }
 
-        if (nearestEnemy != null && shortestDistance <= range){
+        if (nearestEnemy != null && shortestDistance <= turretData.range){
             target = nearestEnemy.transform;
         }
         else
@@ -96,6 +85,6 @@ public class Turret : MonoBehaviour
     void OnDrawGizmosSelected ()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, range);
+        Gizmos.DrawWireSphere(transform.position, turretData.range);
     }
 }

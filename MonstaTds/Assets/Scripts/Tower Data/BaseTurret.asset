@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BaseTurret
   m_EditorClassIdentifier: 
   Name: Default turret
-  prefab: {fileID: 0}
-  upgradedPrefab: {fileID: 0}
+  prefab: {fileID: 4441571530103358783, guid: 23cc239e6acec384e9d0f1c57eef9058, type: 3}
+  bulletTypes: {fileID: 0}
   cost: 10
   damage: 3
   fireRate: 1
