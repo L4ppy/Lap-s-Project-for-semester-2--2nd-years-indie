@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpdateScript : MonoBehaviour
+public class UpdateButtonControllerScript : MonoBehaviour
 {
     public GameObject UpdatePanel;
     // Start is called before the first frame update
@@ -34,8 +34,5 @@ public class UpdateScript : MonoBehaviour
 
     }
 
-
-
-
-
+    
 }

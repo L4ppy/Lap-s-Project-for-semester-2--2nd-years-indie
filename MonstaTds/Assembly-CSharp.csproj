@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,7 @@
     <UnityVersion>2022.1.4f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\Scripts\UpgradeTower.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Demo\Scripts\PolygonEffectCycler.cs" />
     <Compile Include="Assets\Assets\MONSTERS\amusedART\StoneMonster\Script\Animation_Test.cs" />
     <Compile Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
@@ -76,7 +74,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\GameAssets.cs" />
-    <Compile Include="Assets\Nodes.cs" />
+    <Compile Include="Assets\Scripts\Nodes.cs" />
     <Compile Include="Assets\Scripts\Game System\WaveSpawner.cs" />
     <Compile Include="Assets\Scripts\Touch Input\createTurrets.cs" />
     <Compile Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
@@ -87,6 +85,7 @@
     <Compile Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Scripts\PolygonBeamStatic.cs" />
     <Compile Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\Scripts\UpdateButtonControllerScript.cs" />
     <Compile Include="Assets\Scripts\Turret\Turret.cs" />
     <Compile Include="Assets\Scripts\GamePlay\BuildManager.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
@@ -97,7 +96,6 @@
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
-    <Compile Include="Assets\UpdateScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
