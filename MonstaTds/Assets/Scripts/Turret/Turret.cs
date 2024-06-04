@@ -7,6 +7,8 @@ public class Turret : MonoBehaviour
 
     private Transform target;
 
+    public bool useLaser;
+    public LineRenderer lineRenderer;
     
     [Header("UnitySetupFieldS")]
 
@@ -20,10 +22,10 @@ public class Turret : MonoBehaviour
     
     // Start is called before the first frame update
     void Start()
-    {
-        
+    {        
         InvokeRepeating("updateTarget", 0f, 0.5f);
-        
+        if (gameObject.GetComponent<LineRenderer>() != null)
+            lineRenderer = gameObject.GetComponent<LineRenderer>();
     }
 
     // Update is called once per frame
@@ -32,22 +34,38 @@ public class Turret : MonoBehaviour
         if (target == null)
             return;
 
-        Vector3 dir = target.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation,lookRotation, Time.deltaTime * turnpeed).eulerAngles;
-
-        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        LockOnTarget();
 
 
         if (turretData.fireCoolDown <= 0f)
         {
-            Shoot();
-            turretData.fireCoolDown = 1f / turretData.fireRate;
+            if (!useLaser)
+            {
+                Shoot();
+                turretData.fireCoolDown = 1f / turretData.fireRate;
+            }
+            else
+                laser();
+            
         }
 
         turretData.fireCoolDown -= Time.deltaTime;
     }
 
+    void LockOnTarget()
+    {
+        Vector3 dir = target.position - transform.position;
+        Quaternion lookRotation = Quaternion.LookRotation(dir);
+        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnpeed).eulerAngles;
+
+        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+    }
+
+    void laser()
+    {
+        lineRenderer.SetPosition(0, firePoint.position);
+        lineRenderer.SetPosition(1,target.position);
+    }
     void Shoot()
     {
         GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
