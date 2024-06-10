@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5008956376428370576}
   - component: {fileID: -974971056963188603}
   m_Layer: 0
-  m_Name: BulletDemo
+  m_Name: Bullet Laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5008956376428370582
 MeshFilter:
@@ -110,6 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895ae6fa75e372f4a9c7703f3fc8dba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 70
+  speed: 70.06
   impactEffect: {fileID: 7508937939101701210, guid: 292bea8f161461a40b4daa3b9b4f392a,
     type: 3}
