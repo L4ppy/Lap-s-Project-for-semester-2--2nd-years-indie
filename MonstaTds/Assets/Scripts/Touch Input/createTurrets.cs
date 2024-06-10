@@ -5,13 +5,41 @@ using UnityEngine;
 
 public class createTurrets : MonoBehaviour
 {
-
+    public enum TowerTypes { basedTurret, laserTower, rocketLauncher };
     public GameObject turret, FocusObj;
-    public TextMeshPro button;
     
 
+    [SerializeField] private GameObject baseTurretPrefab;
+    [SerializeField] private GameObject laserTowerPrefab;
+    //[SerializeField] private GameObject rocketLauncherPrefab;
+
+    private void Start()
+    {
+        
+    }
+
+    private void OnSelectTower(TowerTypes type)
+    {
+        switch (type)
+        {
+            case TowerTypes.basedTurret:
+                turret = baseTurretPrefab;
+                FocusObj = turret;
+                break;
+            case TowerTypes.laserTower:
+                turret = laserTowerPrefab;
+                FocusObj = turret;
+                break;
+            //case TowerTypes.rocketLauncher:
+            //    turret = rocketLauncherPrefab;
+            //    FocusObj = turret;
+            //    break;
+        }
+    }
     public void CreateTurret()
     {
+        
+        
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (!Physics.Raycast(ray, out hit))
@@ -46,8 +74,13 @@ public class createTurrets : MonoBehaviour
             }
             else
             {
-                DestroyImmediate(FocusObj, true);               
-                FocusObj = null;
+                if (FocusObj != null)
+                {
+                    DestroyImmediate(FocusObj, true);
+                    FocusObj = null;
+                }
+                
+               
             }
 
 

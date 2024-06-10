@@ -1599,7 +1599,8 @@ MonoBehaviour:
   turret: {fileID: 4441571530103358783, guid: 23cc239e6acec384e9d0f1c57eef9058, type: 3}
   FocusObj: {fileID: 4441571530103358783, guid: 23cc239e6acec384e9d0f1c57eef9058,
     type: 3}
-  button: {fileID: 0}
+  baseTurretPrefab: {fileID: 0}
+  laserTowerPrefab: {fileID: 0}
 --- !u!4 &1240698902
 Transform:
   m_ObjectHideFlags: 0
