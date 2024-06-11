@@ -10,10 +10,11 @@ public class WaveSpawner : MonoBehaviour
     public Transform enemyPrefab;
 
     public Transform spawnPoint;
-    public float timeBetweenWaves = 5f;
+    public GameObject spawnEffect;
+    public float timeBetweenWaves = 10f;
     private float countdown = 2f;
 
-    //public TextMeshProUGUI  waveCountDownText;
+    public TextMeshProUGUI  waveCountDownText;
     private int waveNumber = 1;
     private int waveIndex = 0;
 
@@ -26,7 +27,7 @@ public class WaveSpawner : MonoBehaviour
         }
 
         countdown -= Time.deltaTime;
-        //waveCountDownText.text = Mathf.Floor(countdown).ToString();
+        waveCountDownText.text = "Next wave in: " + Mathf.Floor(countdown).ToString();
     }
 
     IEnumerator SpawnWave()
@@ -43,6 +44,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
+        //GameObject effectIns = (GameObject)Instantiate(spawnEffect, spawnPoint.position, new Transform(spawnPoint.position, spawnPoint.rotation.x);
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }

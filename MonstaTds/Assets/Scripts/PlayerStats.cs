@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class PlayerStats : MonoBehaviour
 
 	public static int Rounds;
 
-    public  
+	public Image hpBar;
 
 	void Start()
 	{
@@ -23,7 +24,29 @@ public class PlayerStats : MonoBehaviour
 	}
     private void Update()
     {
-        
+		
+    }
+
+	public void TakeDamage(int dam)
+	{
+		
+
+		if (Lives <=0)
+		{
+			OnLose();
+		}
+		else Lives = Lives - dam;
+        hpBar.fillAmount = (Lives / startLives) * 100;
+    }
+
+	public void OnLose()
+	{
+		Debug.Log("You lose");
+	}
+
+	public void onWin()
+	{
+        Debug.Log("You win");
     }
 
 }

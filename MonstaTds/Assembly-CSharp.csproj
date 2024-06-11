@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UpgradeTower.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Demo\Scripts\PolygonEffectCycler.cs" />
+    <Compile Include="Assets\Scripts\Tower Type.cs" />
     <Compile Include="Assets\testlz.cs" />
     <Compile Include="Assets\Assets\MONSTERS\amusedART\StoneMonster\Script\Animation_Test.cs" />
     <Compile Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
@@ -100,7 +101,7 @@
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Assets\EFFECTs\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
-    <Compile Include="Assets\Scripts\Tower Type.cs" />
+    <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -131,6 +132,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\Assets\EFFECTs\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
+    <None Include="Assets\UI pack\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Assets\MONSTERS\JKT_ART\etc\MatCap.shader" />
     <None Include="Assets\Assets\EFFECTs\Polygon Arsenal\Shaders\Standard\PolyRimLightTransparent.shader" />
