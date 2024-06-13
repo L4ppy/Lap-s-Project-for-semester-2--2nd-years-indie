@@ -44,7 +44,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        //GameObject effectIns = (GameObject)Instantiate(spawnEffect, spawnPoint.position, new Transform(spawnPoint.position, spawnPoint.rotation.x);
+        GameObject effectIns = (GameObject)Instantiate(spawnEffect, spawnPoint.position, spawnEffect.transform.rotation);
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }

@@ -19,12 +19,14 @@ public class Enemy : MonoBehaviour
     public GameObject deathEffect;
 
     [Header("Unity Stuff")]
-    public Image healthBar;
+    public Slider healthBar;
 
     private bool isDead = false;
 
+    
     void Start()
     {
+        healthBar.maxValue = startHealth;
         target = WaypointControl.points[0];
         speed = startSpeed;
         health = startHealth;
@@ -34,6 +36,7 @@ public class Enemy : MonoBehaviour
     {
         Vector3 dir = target.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
+        transform.rotation = Quaternion.LookRotation(dir);
         if (Vector3.Distance(transform.position,target.position) <= 0.2f)
         {
             GetNextWayPoint();
@@ -42,9 +45,10 @@ public class Enemy : MonoBehaviour
 
     private void GetNextWayPoint()
     {
-        if (wavePointIndex >= WaypointControl.points.Length - 1)
+        if (wavePointIndex >= WaypointControl.points.Length - 1 )
         {
             Destroy(gameObject);
+            return;
         }
         wavePointIndex++;
         target = WaypointControl.points[wavePointIndex];
@@ -53,7 +57,7 @@ public class Enemy : MonoBehaviour
     {
         health -= amount;
 
-        healthBar.fillAmount = health / startHealth;
+        healthBar.value = health;
 
         if (health <= 0 && !isDead)
         {

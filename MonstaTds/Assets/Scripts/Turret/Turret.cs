@@ -30,7 +30,7 @@ public class Turret : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (target == null)
         {
@@ -42,7 +42,6 @@ public class Turret : MonoBehaviour
                     impactEffect.Stop();
                 }
             }
-
             return;
         }
            
@@ -76,21 +75,24 @@ public class Turret : MonoBehaviour
 
     void laser()
     {
+        
         if (!lineRenderer.enabled)
         {
             lineRenderer.enabled = true;
-            impactEffect.Play() ;
+            impactEffect.Play();
         }
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1,target.position);
-
+        target.GetComponent<Enemy>().TakeDamage(1f);
+        target.GetComponent<Enemy>().Slow(0.5f);
         Vector3 dir = firePoint.position - target.position;
 
 
         impactEffect.transform.position = target.position + dir.normalized * .5f;
 
         impactEffect.transform.rotation = Quaternion.LookRotation(dir);
-        
+
+
     }
     void Shoot()
     {

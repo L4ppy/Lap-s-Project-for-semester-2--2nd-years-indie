@@ -30389,7 +30389,7 @@ GameObject:
   - component: {fileID: 6405810573260975769}
   m_Layer: 0
   m_Name: Mon_00
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30452,7 +30452,7 @@ MonoBehaviour:
   worth: 50
   deathEffect: {fileID: 7508937939101701210, guid: 292bea8f161461a40b4daa3b9b4f392a,
     type: 3}
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 307286649393618255}
 --- !u!1 &1846604720013428
 GameObject:
   m_ObjectHideFlags: 0
