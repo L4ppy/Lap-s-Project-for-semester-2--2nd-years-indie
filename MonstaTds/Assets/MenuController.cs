@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform demoCamera;
+    public float rotationSpeed = 10f;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        demoCamera.RotateAround(Vector3.zero, Vector3.up, rotationSpeed * Time.deltaTime);
     }
 }
