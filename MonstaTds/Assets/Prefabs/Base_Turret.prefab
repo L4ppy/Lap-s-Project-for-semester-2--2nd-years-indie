@@ -484,6 +484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3956536975594151813}
   - component: {fileID: 7372694783967045406}
+  - component: {fileID: -2570583059991629690}
   m_Layer: 0
   m_Name: Base_Turret
   m_TagString: Untagged
@@ -499,7 +500,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4441571530103358783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.474504, y: -1, z: 70.04491}
+  m_LocalPosition: {x: 18.7, y: -2.43, z: 66.46}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -530,6 +531,19 @@ MonoBehaviour:
     type: 3}
   firePoint: {fileID: 5617654520161974875}
   turretData: {fileID: 11400000, guid: afc84888dd38f704d92bd8d9662f4a50, type: 2}
+--- !u!65 &-2570583059991629690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4441571530103358783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5220071454651639195
 GameObject:
   m_ObjectHideFlags: 0

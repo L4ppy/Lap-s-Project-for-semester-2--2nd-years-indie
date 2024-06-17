@@ -15,7 +15,7 @@ C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/Mo
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56460
+50591
 Successfully changed project path to: C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
 C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/Mo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 63.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,56 +63,56 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002400 seconds.
+Registered in 0.002587 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 71.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.404 seconds
+- Completed reload, in  0.460 seconds
 Domain Reload Profiling:
-	ReloadAssembly (404ms)
-		BeginReloadAssembly (41ms)
+	ReloadAssembly (461ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (307ms)
-			LoadAssemblies (39ms)
+		EndReloadAssembly (360ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
-				TypeCache.Initialize (62ms)
-					TypeCache.ScanAssembly (61ms)
+			SetupTypeCache (72ms)
+				TypeCache.Initialize (72ms)
+					TypeCache.ScanAssembly (71ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (199ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (72ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002999 seconds.
+Registered in 0.002803 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 72.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -122,46 +122,46 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.990 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
-				TypeCache.Initialize (135ms)
-					TypeCache.ScanAssembly (132ms)
-				ResolveRequiredComponents (2ms)
+			SetupTypeCache (227ms)
+				TypeCache.Initialize (224ms)
+					TypeCache.ScanAssembly (222ms)
+				ResolveRequiredComponents (3ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (323ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (389ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3982 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (59.4 KB). Loaded Objects now: 4419.
+Unloading 3983 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (59.6 KB). Loaded Objects now: 4418.
 Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 2.234200 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.075800 ms MarkObjects: 1.902100 ms  DeleteObjects: 0.069600 ms)
+Total: 2.118400 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.742700 ms  DeleteObjects: 0.066100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,156 +175,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 14108.778250 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Bullet/BulletExplosionGreen.prefab
-  artifactKey: Guid(ddd5890b7dd2ac74ab4caeebf282b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Bullet/BulletExplosionGreen.prefab using Guid(ddd5890b7dd2ac74ab4caeebf282b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8564c5ff9c8f76d493d0cfd08f4994') in 0.171277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Sniper/SniperBulletRed.prefab
-  artifactKey: Guid(fd0fae7b31157cb46ba6e7c61b03d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Sniper/SniperBulletRed.prefab using Guid(fd0fae7b31157cb46ba6e7c61b03d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c23ba25fdb2a9cd83ba5c468c87c8dd') in 0.013929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX (legacy)/Materials/Water/CFX4_BubbleSubtle AddA8.mat
-  artifactKey: Guid(ae4bd2bfbe5feee409f42cd62343a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX (legacy)/Materials/Water/CFX4_BubbleSubtle AddA8.mat using Guid(ae4bd2bfbe5feee409f42cd62343a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c556f1bc65b1c7e317bac9de1bfa66') in 0.040467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Bubble_Add.mat
-  artifactKey: Guid(503ba37627ac18c4ebe9bbe73d6ea9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Bubble_Add.mat using Guid(503ba37627ac18c4ebe9bbe73d6ea9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ac88447fbb6577c59f2b3b0d77d7ab') in 0.027407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Environment/Bubbles/Surface/BubblesSurfaceWater.prefab
-  artifactKey: Guid(bbda4a69f40328d49abd034f23bfbbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Environment/Bubbles/Surface/BubblesSurfaceWater.prefab using Guid(bbda4a69f40328d49abd034f23bfbbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0373ac49ee1100f0ba0c6e8883e13b4d') in 0.091071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble hdr ab.mat
-  artifactKey: Guid(92f3f05a0e6f8e840b8e4367b2c7713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble hdr ab.mat using Guid(92f3f05a0e6f8e840b8e4367b2c7713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76a994a58f910f5d7683632978138f1') in 0.084287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/Buller Impact.mat
-  artifactKey: Guid(49f099fb9ac3aa548966870b33808624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Buller Impact.mat using Guid(49f099fb9ac3aa548966870b33808624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131716a872fd8e1176f99ddd220806b2') in 0.011857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Interactive/Trails/AirTrails/BubbleAcidTrail.prefab
-  artifactKey: Guid(baa1d1ee2111d9f438be3cf66cb2b81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Interactive/Trails/AirTrails/BubbleAcidTrail.prefab using Guid(baa1d1ee2111d9f438be3cf66cb2b81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd263a0ff601eaccbd3be5e510534abc9') in 0.011809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Demo/Missile Prefabs/Bullet/BulletRedOBJ.prefab
-  artifactKey: Guid(38645924c6d515e48acacfa8eb5b1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Demo/Missile Prefabs/Bullet/BulletRedOBJ.prefab using Guid(38645924c6d515e48acacfa8eb5b1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4739acfde9ea6282b04d9f3bc33a5b6') in 0.023733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletRed.prefab
-  artifactKey: Guid(8b258b932753a4c4c988b8527c8273e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletRed.prefab using Guid(8b258b932753a4c4c988b8527c8273e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546d7e10cf93d27edc543e0b286bc72b') in 0.013340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Bullet/BulletExplosionBlue.prefab
-  artifactKey: Guid(62bd9cb00576bac4fb66f9bcc0adf19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Bullet/BulletExplosionBlue.prefab using Guid(62bd9cb00576bac4fb66f9bcc0adf19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2804fe1292288bbae78d1330146734cd') in 0.014633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullets02.FBX
-  artifactKey: Guid(61657752867644b489c87c7d6e8e322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullets02.FBX using Guid(61657752867644b489c87c7d6e8e322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de58abed076dd2802adef0a5370ed62a') in 0.022723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/UI pack/Prefabs/Buttons/Button Green Outline.prefab
-  artifactKey: Guid(676614c30efe6fc4b82edb9eddfa3ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Prefabs/Buttons/Button Green Outline.prefab using Guid(676614c30efe6fc4b82edb9eddfa3ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd082c8de87ae3b276568dd76c4431af7') in 0.013855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Demo/Missile Prefabs/Bullet/BulletYellowOBJ.prefab
-  artifactKey: Guid(f5645b2dccfaa5242b681782b5b67d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Demo/Missile Prefabs/Bullet/BulletYellowOBJ.prefab using Guid(f5645b2dccfaa5242b681782b5b67d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5705d1828852a3057d1c605d11993ff') in 0.009547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble ab.mat
-  artifactKey: Guid(b723f81f440998d42a4d4b393cac870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble ab.mat using Guid(b723f81f440998d42a4d4b393cac870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd69b00dbb7d80771fdc8be2b852dbaa') in 0.029066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/SilenceDebuff.prefab
-  artifactKey: Guid(454a8e43facd258428d6afd99aacc8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/SilenceDebuff.prefab using Guid(454a8e43facd258428d6afd99aacc8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94185ac61496203e41155762147ae005') in 0.021198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble.png
-  artifactKey: Guid(c78c2071651a73d4db16ad0155af4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble.png using Guid(c78c2071651a73d4db16ad0155af4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e8f79930a776aebb46d6cb4f70b0de') in 0.017737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2.png
-  artifactKey: Guid(e60eda0ccf5343e46b8cb114df9ba50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2.png using Guid(e60eda0ccf5343e46b8cb114df9ba50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eda1848f436a9d3bb9640072d64bebf') in 0.011121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Materials/Rimlight/Transparent/PolyBubbleAcid.mat
-  artifactKey: Guid(82bd37d3b4deb5f41a641e4cabe9c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Materials/Rimlight/Transparent/PolyBubbleAcid.mat using Guid(82bd37d3b4deb5f41a641e4cabe9c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660bb51df075677da1cd195fc3c18537') in 0.010909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Environment/Bubbles/Surface/BubblesSurfaceLavaAlt.prefab
-  artifactKey: Guid(153c2a2b0ee28de41954fed33a8840a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Environment/Bubbles/Surface/BubblesSurfaceLavaAlt.prefab using Guid(153c2a2b0ee28de41954fed33a8840a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e419efd62bbb545a0e961b4a4afa8ab4') in 0.016356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBullet.FBX
-  artifactKey: Guid(5896798959845b748b9019211c7e6e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBullet.FBX using Guid(5896798959845b748b9019211c7e6e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa25caa3fdeee69eaeac4faacc34ecbd') in 0.016187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Muzzleflash/Sci-Fi/Bullet/BulletMuzzlePurple.prefab
-  artifactKey: Guid(b20bdb141aeb0354ea8542e830d49d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Muzzleflash/Sci-Fi/Bullet/BulletMuzzlePurple.prefab using Guid(b20bdb141aeb0354ea8542e830d49d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b625c361ba8e698c098b9ad29f7de1') in 0.016061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/PoisonDebuff.prefab
-  artifactKey: Guid(fd94a3d788e448b44950c34c19ad609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/PoisonDebuff.prefab using Guid(fd94a3d788e448b44950c34c19ad609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7e77f390500cf282121560c0f5786') in 0.013748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullet.FBX
-  artifactKey: Guid(52d0bd6e4aee00143b33fe29c6913b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullet.FBX using Guid(52d0bd6e4aee00143b33fe29c6913b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a0089b3ee1d5d1ba159529c1c71502') in 0.016571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/EFFECTs/Polygon Arsenal/Demo/Missile Prefabs/Bullet/BulletGreenOBJ.prefab
-  artifactKey: Guid(093b65e2e0225554a8bb4b5b035a9d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Demo/Missile Prefabs/Bullet/BulletGreenOBJ.prefab using Guid(093b65e2e0225554a8bb4b5b035a9d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb828373235179c6ed2779bbe8c653a') in 0.010134 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+				TypeCache.Initialize (136ms)
+					TypeCache.ScanAssembly (134ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3952 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (33.5 KB). Loaded Objects now: 4421.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 1.817700 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.603300 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1596,11 +1596,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f19d09497e8ba1a4e9715d9946cea43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turret: {fileID: 4441571530103358783, guid: 23cc239e6acec384e9d0f1c57eef9058, type: 3}
+  baseTurret: {fileID: 1477325271}
+  laserTurret: {fileID: 0}
+  rockerTurret: {fileID: 0}
   FocusObj: {fileID: 4441571530103358783, guid: 23cc239e6acec384e9d0f1c57eef9058,
     type: 3}
-  baseTurretPrefab: {fileID: 0}
-  laserTowerPrefab: {fileID: 0}
 --- !u!4 &1240698902
 Transform:
   m_ObjectHideFlags: 0
@@ -1616,6 +1616,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1477325271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4441571530103358783, guid: 23cc239e6acec384e9d0f1c57eef9058,
+    type: 3}
+  m_PrefabInstance: {fileID: 6909976665567930253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1739137263
 GameObject:
   m_ObjectHideFlags: 0
