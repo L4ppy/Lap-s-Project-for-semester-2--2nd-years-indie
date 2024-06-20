@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.4f1 (76dd1f94b339) revision 7789855'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32463 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32532 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.4f1\Editor\Unity.exe
 -name
 AssetImportWorker4
 -projectPath
-D:/Users/lap.h/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
+C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-62056
-Successfully changed project path to: D:/Users/lap.h/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
-D:/Users/lap.h/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
+50328
+Successfully changed project path to: C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
+C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,72 +47,72 @@ D:/Users/lap.h/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/Mo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 334.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Users/lap.h/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ADMIN/Documents/GitHub/Lap-s-Project-for-semester-2--2nd-years-indie/MonstaTds/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     8019 MB
-    Driver:   31.0.15.3623
+    VRAM:     12115 MB
+    Driver:   31.0.15.5244
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017602 seconds.
+Registered in 0.002400 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 199.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.561 seconds
+- Completed reload, in  0.404 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1563ms)
-		BeginReloadAssembly (381ms)
+	ReloadAssembly (404ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (967ms)
-			LoadAssemblies (384ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (310ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-				TypeCache.Initialize (238ms)
-					TypeCache.ScanAssembly (236ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (67ms)
+				TypeCache.Initialize (67ms)
+					TypeCache.ScanAssembly (66ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (556ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
-				SetLoadedEditorAssemblies (12ms)
-				RefreshPlugins (199ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.031309 seconds.
+Registered in 0.002315 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 200.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -122,52 +122,53 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  2.893 seconds
+- Completed reload, in  0.799 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2894ms)
-		BeginReloadAssembly (409ms)
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (2207ms)
-			LoadAssemblies (596ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (565ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (515ms)
-				TypeCache.Initialize (506ms)
-					TypeCache.ScanAssembly (499ms)
-				ResolveRequiredComponents (9ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (1104ms)
+			SetupTypeCache (136ms)
+				TypeCache.Initialize (134ms)
+					TypeCache.ScanAssembly (132ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (200ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (660ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3983 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (60.8 KB). Loaded Objects now: 4419.
+Unloading 3985 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (58.6 KB). Loaded Objects now: 4422.
 Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 11.975500 ms (FindLiveObjects: 0.827300 ms CreateObjectMapping: 0.756400 ms MarkObjects: 10.070000 ms  DeleteObjects: 0.316900 ms)
+Total: 2.035800 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.080800 ms MarkObjects: 1.739400 ms  DeleteObjects: 0.051900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -175,220 +176,901 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 334429.280187 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef
-  artifactKey: Guid(b16f2517c64fb4c43848850704aba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef using Guid(b16f2517c64fb4c43848850704aba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff216b94bca5887ac29a4ea8b8b9d71') in 0.056120 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.026365 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  2.298 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2298ms)
-		BeginReloadAssembly (432ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1655ms)
-			LoadAssemblies (451ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (489ms)
-				TypeCache.Initialize (476ms)
-					TypeCache.ScanAssembly (466ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (743ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (12ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3951 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (26.5 KB). Loaded Objects now: 4422.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 4.673500 ms (FindLiveObjects: 0.397200 ms CreateObjectMapping: 0.217300 ms MarkObjects: 4.011700 ms  DeleteObjects: 0.045700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033614 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  2.207 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2209ms)
-		BeginReloadAssembly (443ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1586ms)
-			LoadAssemblies (440ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (505ms)
-				TypeCache.Initialize (492ms)
-					TypeCache.ScanAssembly (485ms)
-				ResolveRequiredComponents (12ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (668ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (438ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 12.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3952 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (33.6 KB). Loaded Objects now: 4425.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 5.045000 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.252500 ms MarkObjects: 4.327600 ms  DeleteObjects: 0.045400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 19511.164854 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Antimatter/AntimatterExplosionRed.prefab
+  artifactKey: Guid(7a90172985daa8b4fa396955da2a709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Antimatter/AntimatterExplosionRed.prefab using Guid(7a90172985daa8b4fa396955da2a709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a29aa7e676e82f4595059de697a55') in 0.121119 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 202.209737 seconds.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(3bd0ce03f78d3064098aff0910adc42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(3bd0ce03f78d3064098aff0910adc42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d2cb6edfda5d5fb745aa17b845def6') in 0.018089 seconds 
+  Time since last request: 5.629209 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyAntimatterExplosionSND.prefab
+  artifactKey: Guid(f2c7fbfb04000aa43b2ccc74fb125069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyAntimatterExplosionSND.prefab using Guid(f2c7fbfb04000aa43b2ccc74fb125069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74242b05224a16bdce26f1cebc95bc41') in 0.008910 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.205651 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef
-  artifactKey: Guid(fb9ff7b799c73af479a69874581439d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef using Guid(fb9ff7b799c73af479a69874581439d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1535e86e1d60e469782f554359d962') in 0.012582 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyBoneExplosionSND.prefab
+  artifactKey: Guid(985d250d5c5b3a34ab28230442449e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyBoneExplosionSND.prefab using Guid(985d250d5c5b3a34ab28230442449e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2499cebc4b4367e47c7ce2518e0e74') in 0.008112 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.063912 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor
-  artifactKey: Guid(0e7e3e77db40c4cba83bb3a6ab440084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor using Guid(0e7e3e77db40c4cba83bb3a6ab440084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957c8346136b35367e64940dac234195') in 0.010068 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyFireballExplosionSND.prefab
+  artifactKey: Guid(4dd3b5129e9b7704f9d8e1cfaf7ba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyFireballExplosionSND.prefab using Guid(4dd3b5129e9b7704f9d8e1cfaf7ba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d315aa793fc187871f3e7b1f2b686') in 0.007397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.121606 seconds.
-  path: Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef
-  artifactKey: Guid(cd0a5c04eb538be45bab7f699da24bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/EFFECTs/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef using Guid(cd0a5c04eb538be45bab7f699da24bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e3c5c3a7c97ead30ef64d58a633e54') in 0.016912 seconds 
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyHolyExplosionSND.prefab
+  artifactKey: Guid(1867d6f898f56cf48b3a0108dfc8a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyHolyExplosionSND.prefab using Guid(1867d6f898f56cf48b3a0108dfc8a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00557f03278b90f8043590413ef1bab3') in 0.006364 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029226 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\lap.h\Documents\GitHub\Lap-s-Project-for-semester-2--2nd-years-indie\MonstaTds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  2.471 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2472ms)
-		BeginReloadAssembly (405ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (1782ms)
-			LoadAssemblies (356ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (489ms)
-				TypeCache.Initialize (482ms)
-					TypeCache.ScanAssembly (473ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (862ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (583ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 12.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3952 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (26.4 KB). Loaded Objects now: 4429.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 11.506100 ms (FindLiveObjects: 0.750400 ms CreateObjectMapping: 0.521800 ms MarkObjects: 10.139800 ms  DeleteObjects: 0.090100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyIncendiaryGrenadeExplosionSND.prefab
+  artifactKey: Guid(ed4832af2b679ff4785a5e0cd70ef1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyIncendiaryGrenadeExplosionSND.prefab using Guid(ed4832af2b679ff4785a5e0cd70ef1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f96d3ba46e1cd1687321368f8cc6fda') in 0.006599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyLightningExplosionSND.prefab
+  artifactKey: Guid(7ef82084af5ffe64291f9a7a64a52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyLightningExplosionSND.prefab using Guid(7ef82084af5ffe64291f9a7a64a52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd44e5de7531ab15bd58e334bb5745f') in 0.007016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyLiquidLavaExplosionSND.prefab
+  artifactKey: Guid(83a560797552ca042b7bcd339886967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyLiquidLavaExplosionSND.prefab using Guid(83a560797552ca042b7bcd339886967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1c1bca123b0d485afb4b06710afa64') in 0.006348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyLiquidWaterExplosionSND.prefab
+  artifactKey: Guid(dddd086eb7da4f84ebd408fe51dcd4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyLiquidWaterExplosionSND.prefab using Guid(dddd086eb7da4f84ebd408fe51dcd4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e108fbfef6fe971d13d7e18cfa5a5daf') in 0.008354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyShadowExplosionSND.prefab
+  artifactKey: Guid(a2c4f37ca2208fb40b00d3e1df6f0e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyShadowExplosionSND.prefab using Guid(a2c4f37ca2208fb40b00d3e1df6f0e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29407267679d64c7e5475548b6ebbbad') in 0.008034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolySkullExplosionSND.prefab
+  artifactKey: Guid(911b6ba6957621b43af0919882833c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolySkullExplosionSND.prefab using Guid(911b6ba6957621b43af0919882833c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cb43138d9daa1a8742b3db8fafa5c8') in 0.007075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyStormExplosionSND.prefab
+  artifactKey: Guid(ac39ca864cca6354993d36684cdbf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Explosions/PolyStormExplosionSND.prefab using Guid(ac39ca864cca6354993d36684cdbf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b8bab0697034d58da94275cc95f100') in 0.009000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.716703 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_beam_laser2_loop.wav
+  artifactKey: Guid(545088b964de0de4fb19e920043eb65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_beam_laser2_loop.wav using Guid(545088b964de0de4fb19e920043eb65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936a85eea462c2bc84f2709bf835ec9d') in 0.026937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_blackhole2.wav
+  artifactKey: Guid(5648f06101645544080aafd27951d0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_blackhole2.wav using Guid(5648f06101645544080aafd27951d0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bdd2e386798ad24c91d85f4155b614') in 0.012827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_bio.wav
+  artifactKey: Guid(f6fa0be4ca226154384bf756de4042e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_bio.wav using Guid(f6fa0be4ca226154384bf756de4042e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6536434d1fe47d371def46f7456f793') in 0.016090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_dark02.wav
+  artifactKey: Guid(5ef2b5f3075ff2741bcf380f759f0236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_dark02.wav using Guid(5ef2b5f3075ff2741bcf380f759f0236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c976c901d0535831a00a947e266caf31') in 0.012208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_flashbang.wav
+  artifactKey: Guid(3a91a2a96f46cf9409f5e26ff7b564f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_flashbang.wav using Guid(3a91a2a96f46cf9409f5e26ff7b564f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a9d0686fca8722368428b55986edf2') in 0.010437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_ice.wav
+  artifactKey: Guid(69b54ca71c1448e42b7b46a419818dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_ice.wav using Guid(69b54ca71c1448e42b7b46a419818dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d36cf3b66a44a435ae8c47751198cc') in 0.009655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_dark.wav
+  artifactKey: Guid(0ff5352034593c4498bc5d5210e3abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_dark.wav using Guid(0ff5352034593c4498bc5d5210e3abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d74e603c3c6d6691f53d6a96752f93b') in 0.009392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_holy02.wav
+  artifactKey: Guid(4e6ffa7559928a542b96f2a47c1cd487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_holy02.wav using Guid(4e6ffa7559928a542b96f2a47c1cd487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a39f209757f35d8ad656bb42488d423') in 0.009997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_nuke2.wav
+  artifactKey: Guid(13d88e1139a700141851740d7f644325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_nuke2.wav using Guid(13d88e1139a700141851740d7f644325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb5941c021c4f1d5f537f1d241d7f4d') in 0.010393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_nuke4.wav
+  artifactKey: Guid(af8a56de57d472044af344d2779ae801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_nuke4.wav using Guid(af8a56de57d472044af344d2779ae801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419d6720c9685a6aaab699c143a0e8e7') in 0.012546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_rocket.wav
+  artifactKey: Guid(c63c97718a9532c45903f33e38d138ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_rocket.wav using Guid(c63c97718a9532c45903f33e38d138ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845dcb5672f8abe50f4d4bc7c9e22d93') in 0.011517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_small3.wav
+  artifactKey: Guid(179cd85d3a4c37346a7d02280411e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_small3.wav using Guid(179cd85d3a4c37346a7d02280411e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82467c5b25d7b735de41cb82911d91e') in 0.014621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_small4.wav
+  artifactKey: Guid(17ea2e207a774eb4697888d0c7f0ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_small4.wav using Guid(17ea2e207a774eb4697888d0c7f0ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f85c59c7fd68fb39a751e5231bae33f') in 0.012002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot01.wav
+  artifactKey: Guid(4e9b7f945db565e4cb215f976ae09e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot01.wav using Guid(4e9b7f945db565e4cb215f976ae09e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694d95215b5d8bcc8aaff7e4daa53547') in 0.010795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_bone.wav
+  artifactKey: Guid(b48e632c5a6c6174e8bccaa9f04d399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_bone.wav using Guid(b48e632c5a6c6174e8bccaa9f04d399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267610dc6146f5cf08a4fed293ea55a9') in 0.012658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_holy.wav
+  artifactKey: Guid(ac1182b25b3fc8147aaf88f19e4241ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_holy.wav using Guid(ac1182b25b3fc8147aaf88f19e4241ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c84582262f8006fe375d3caea7a055e') in 0.012506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_ice.wav
+  artifactKey: Guid(753f1d1dacb52274fb9df7a142f8b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_ice.wav using Guid(753f1d1dacb52274fb9df7a142f8b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3488ad32260213f88d9d23d040b4134a') in 0.013120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_magic.wav
+  artifactKey: Guid(8b2ce43195f84974a964e5f751f9bf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_magic.wav using Guid(8b2ce43195f84974a964e5f751f9bf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbddafb2892e399fefaf6b73d3f59d5f') in 0.014487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_pistol.wav
+  artifactKey: Guid(c9078c3724d980347b7b29c5e846c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_pistol.wav using Guid(c9078c3724d980347b7b29c5e846c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fd8eabf8b7c7cbe49abc233404d600') in 0.011919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_missile02.wav
+  artifactKey: Guid(b9e02d00e3be50743839f33320c2e197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_missile02.wav using Guid(b9e02d00e3be50743839f33320c2e197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18520a5a7824db3a4238481edfc9b5ba') in 0.010450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_stone.wav
+  artifactKey: Guid(2ec3890d80a549843a429f4deb1a2aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_shoot_stone.wav using Guid(2ec3890d80a549843a429f4deb1a2aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a770e10baa7dc107ad6afda147094da') in 0.028774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_fireball1.wav
+  artifactKey: Guid(a6ed263e807940048af5295b8f7144d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Wav/poly_explosion_fireball1.wav using Guid(a6ed263e807940048af5295b8f7144d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1385d63b5ffa3b6a19a078c7917e68') in 0.019196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.305417 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models
+  artifactKey: Guid(03df36a8e95818f4385f287f68b0e34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models using Guid(03df36a8e95818f4385f287f68b0e34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b28d3cf5dd3ae49fecf5ed1fca6b9b1') in 0.008934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.884912 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Demo
+  artifactKey: Guid(1eee852f59d07ba4f85e5ee2cbcdf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Demo using Guid(1eee852f59d07ba4f85e5ee2cbcdf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4c5c9ba2c3368b635454e4268ef33') in 0.007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.300185 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Lights
+  artifactKey: Guid(76dcef0b875207d4eb9198fbde3062ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Lights using Guid(76dcef0b875207d4eb9198fbde3062ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e85c7999f0473e3982a878a17af066a') in 0.006259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.450628 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Materials
+  artifactKey: Guid(618d373e04013e240af806a28d9106b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Materials using Guid(618d373e04013e240af806a28d9106b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c856359718601f0316574cdfed9a93') in 0.006638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.633528 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Scripts
+  artifactKey: Guid(8571603bffad1af4582d2f0fff06a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Scripts using Guid(8571603bffad1af4582d2f0fff06a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a46f9ab7532be0f4a9814a92ca841b') in 0.007139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.376183 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyArrow.FBX
+  artifactKey: Guid(5e5aee3af2950fa438aacdb9122fb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyArrow.FBX using Guid(5e5aee3af2950fa438aacdb9122fb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39956a5f7346ad013a5329b7c3671df1') in 0.029350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneBroken.FBX
+  artifactKey: Guid(f1a0bf022ef5ce443a81b80372a361ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneBroken.FBX using Guid(f1a0bf022ef5ce443a81b80372a361ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd3712df8cf7c99d952aa43d12ef5e7') in 0.014034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneRibCage.FBX
+  artifactKey: Guid(1cb7884dec2a8874b9ab83ba738ddc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneRibCage.FBX using Guid(1cb7884dec2a8874b9ab83ba738ddc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c295f46fea37ab038c2e7ee82bad22e') in 0.012211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike.FBX
+  artifactKey: Guid(3a3633ee625989b428a72b8c30704b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike.FBX using Guid(3a3633ee625989b428a72b8c30704b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb7e93b14b00d851b7acb670ee57af3') in 0.011434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike4.FBX
+  artifactKey: Guid(2a729083cd2a6cd479bcdb380ff6e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike4.FBX using Guid(2a729083cd2a6cd479bcdb380ff6e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e2dc5443d3ccb1a8998946d462f65d') in 0.011692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneWall.FBX
+  artifactKey: Guid(aeb92e69174cc1b4d852728721b3db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneWall.FBX using Guid(aeb92e69174cc1b4d852728721b3db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5e2fd4cdbf09f16f4e8096e63ee00a') in 0.012421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCapsuleOffset.FBX
+  artifactKey: Guid(91c2cad7f7aa5614c9668d7ef4423630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCapsuleOffset.FBX using Guid(91c2cad7f7aa5614c9668d7ef4423630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f0d6495299ae8a3c29446128ba6cc7') in 0.011724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCapsuleCentered.FBX
+  artifactKey: Guid(a0a1c331792d03a409345c40e19b7612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCapsuleCentered.FBX using Guid(a0a1c331792d03a409345c40e19b7612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd8b47fef1faf781836f0126bff108d') in 0.013737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainVines2.FBX
+  artifactKey: Guid(24179f7cf1515c74e8fd7d110c39d484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainVines2.FBX using Guid(24179f7cf1515c74e8fd7d110c39d484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b55381230beb87d2bc35d114907aed') in 0.012062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCoinBig.FBX
+  artifactKey: Guid(849e72079844d48438fc58820f66c349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCoinBig.FBX using Guid(849e72079844d48438fc58820f66c349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9b21ec84ec7c2c651c5b3d02ebd265') in 0.012934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyDagger02.FBX
+  artifactKey: Guid(13d335a5c64f18247b7fbc8ef4f9bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyDagger02.FBX using Guid(13d335a5c64f18247b7fbc8ef4f9bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3747f07867e52e0d313ab8d3ecf5ff2') in 0.012195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyGlassShard.FBX
+  artifactKey: Guid(4acb3f5f83710424f82e354de163aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyGlassShard.FBX using Guid(4acb3f5f83710424f82e354de163aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048287e93049df5125a54559a62bbdb6') in 0.011605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolygonPowerupHealth.FBX
+  artifactKey: Guid(eb469913d8a97714d86227946cd13546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolygonPowerupHealth.FBX using Guid(eb469913d8a97714d86227946cd13546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d08355f4b3525548630171645ed166') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyGrassStraw.FBX
+  artifactKey: Guid(7c8ccd6b7cbda4d4baf288458a84a3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyGrassStraw.FBX using Guid(7c8ccd6b7cbda4d4baf288458a84a3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dcde06f9ebff49279114f3c62db133') in 0.011522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyHexaRockCluster01.FBX
+  artifactKey: Guid(70d4d48b09684a94ab786d657e24d1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyHexaRockCluster01.FBX using Guid(70d4d48b09684a94ab786d657e24d1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e65141f2be62594d264297b71a134f') in 0.012451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyHoneyCombTri.FBX
+  artifactKey: Guid(24e208e6881c8fc4bbf364c50ad98446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyHoneyCombTri.FBX using Guid(24e208e6881c8fc4bbf364c50ad98446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8333db2df82f6521325b5407c8bb5ccf') in 0.012187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyJet07.FBX
+  artifactKey: Guid(f025bf2ca4e927d45a80bbe4c1b887f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyJet07.FBX using Guid(f025bf2ca4e927d45a80bbe4c1b887f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d0b346fcdfed13086f3d122a7c9cf1') in 0.011171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyGlowTube.FBX
+  artifactKey: Guid(d4f4c1b520894ff4b9fd2c84d90a9ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyGlowTube.FBX using Guid(d4f4c1b520894ff4b9fd2c84d90a9ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0087de1635f1356e48b2caa6271b0f0b') in 0.012955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMoneybill.FBX
+  artifactKey: Guid(02032452097838841b8d2ea6c8a65fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMoneybill.FBX using Guid(02032452097838841b8d2ea6c8a65fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e4de661934c5c6483d9ea7d42ca5e4') in 0.011860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullet.FBX
+  artifactKey: Guid(52d0bd6e4aee00143b33fe29c6913b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullet.FBX using Guid(52d0bd6e4aee00143b33fe29c6913b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab404d0ba2e385009549c1bc9fe1cce') in 0.012551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullets02.FBX
+  artifactKey: Guid(61657752867644b489c87c7d6e8e322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullets02.FBX using Guid(61657752867644b489c87c7d6e8e322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3429e8fa8db6c1ceeb3764f9f4b130') in 0.011992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerRandom.FBX
+  artifactKey: Guid(450f8386e3a12a249ad7205d84202bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerRandom.FBX using Guid(450f8386e3a12a249ad7205d84202bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9fb23763a83f5cb3ba0c2d116a5acd') in 0.015047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRock03.FBX
+  artifactKey: Guid(6287669357b542741ba0a137c03b0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRock03.FBX using Guid(6287669357b542741ba0a137c03b0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a409b3a81054a6d794dd51be2ee7688') in 0.012744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRockCluster.FBX
+  artifactKey: Guid(c86ecf6e8c629cc4b8e927b492d3a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRockCluster.FBX using Guid(c86ecf6e8c629cc4b8e927b492d3a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5466cee73462c3dbaa0949b1a2d773') in 0.012876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRocket.FBX
+  artifactKey: Guid(7621d59b18610634d9404fbb6624bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRocket.FBX using Guid(7621d59b18610634d9404fbb6624bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d859a0c67897dfa08101781a02c424') in 0.011563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyShield01.FBX
+  artifactKey: Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyShield01.FBX using Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aabd44bad9b9108b068be9141def759') in 0.013593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyShield02.FBX
+  artifactKey: Guid(56aeba1999ed71b4f92daba4282b77f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyShield02.FBX using Guid(56aeba1999ed71b4f92daba4282b77f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8229f9848f16ee51ecd7f77e709b1a7') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullFull.FBX
+  artifactKey: Guid(e9cab8d8e792c704ea37f1e597d16eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullFull.FBX using Guid(e9cab8d8e792c704ea37f1e597d16eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a562ede72163029796389de334b5907f') in 0.015264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRupeeLow.FBX
+  artifactKey: Guid(835dd667717be0f46b51d627b8a85706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRupeeLow.FBX using Guid(835dd667717be0f46b51d627b8a85706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc707cb85081d3e51409be35c7d0aaf') in 0.012989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySphereNormal.FBX
+  artifactKey: Guid(18f8256b07af27c43bffd5746817ba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySphereNormal.FBX using Guid(18f8256b07af27c43bffd5746817ba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ca1a38b6c1f2220c7eac3f0f1b32aa') in 0.011826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyLeafMid.FBX
+  artifactKey: Guid(2cee0ef4cd77a8646bdc3df16571990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyLeafMid.FBX using Guid(2cee0ef4cd77a8646bdc3df16571990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b52efc9e97104dbf755eb41580b7a51') in 0.011744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainVines.FBX
+  artifactKey: Guid(4a97a523b1b2fe74393552b25e21f52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainVines.FBX using Guid(4a97a523b1b2fe74393552b25e21f52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c8de6be82b305e3a236a9e21de58a6') in 0.011266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyJet04.FBX
+  artifactKey: Guid(1a7351911dc41a345a31018b8d8460b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyJet04.FBX using Guid(1a7351911dc41a345a31018b8d8460b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a70273647943a78f09a528d3856055c') in 0.009930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRock02.FBX
+  artifactKey: Guid(cd14a952098267f44892c49b2bbae732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRock02.FBX using Guid(cd14a952098267f44892c49b2bbae732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee86a0be6a6b6acb8113e696b5a88a0') in 0.013253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainMid.FBX
+  artifactKey: Guid(954a005b594c3c04e80b8050308c5d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainMid.FBX using Guid(954a005b594c3c04e80b8050308c5d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25643025232c80536c57d87f5478f6f') in 0.015012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike1.FBX
+  artifactKey: Guid(bdbf9149486d41944beb97d32657ca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike1.FBX using Guid(bdbf9149486d41944beb97d32657ca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e3d4cd5f6c132ec1a5891e9a3cdfe3') in 0.012481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyIcicle03.FBX
+  artifactKey: Guid(5c6587cfc630bd44ab5697a7b4f95e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyIcicle03.FBX using Guid(5c6587cfc630bd44ab5697a7b4f95e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ce66bc8c7e07c39d15cc655b3f9ee8') in 0.014446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyTorus02.FBX
+  artifactKey: Guid(ff659a9249995b84bbd060d1eb7442cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyTorus02.FBX using Guid(ff659a9249995b84bbd060d1eb7442cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20458da178b8b47ba1570727353e020') in 0.021856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneGory01.FBX
+  artifactKey: Guid(2451a78dc6d4a63498777073b14273f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneGory01.FBX using Guid(2451a78dc6d4a63498777073b14273f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf812ebc2ad3492a3e4139e51a3817') in 2.948367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneBrain.FBX
+  artifactKey: Guid(a7ea3b258cec54041a0ce42ff7ebf8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneBrain.FBX using Guid(a7ea3b258cec54041a0ce42ff7ebf8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174271d24093433b912589424e496a22') in 0.022519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyVineSpiky.FBX
+  artifactKey: Guid(5d5bc3ad3c3ce9b4eaf3d95fa1caa1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyVineSpiky.FBX using Guid(5d5bc3ad3c3ce9b4eaf3d95fa1caa1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58dfee59ce410d5c23c59906563e0f9') in 0.013086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullCheapCranium.FBX
+  artifactKey: Guid(cdfcdbf2acda5544180999aa28962a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullCheapCranium.FBX using Guid(cdfcdbf2acda5544180999aa28962a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d8059c9efde25d48b208bc88b86b28') in 0.016464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullCheap.FBX
+  artifactKey: Guid(53e3f58e62ea13645a0bd8b6f31ed586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullCheap.FBX using Guid(53e3f58e62ea13645a0bd8b6f31ed586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fe6c5921033ca6e1f751235be24dfd') in 0.018671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyTiltedTube02.FBX
+  artifactKey: Guid(83ca04a3b12196347a978b88ba949d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyTiltedTube02.FBX using Guid(83ca04a3b12196347a978b88ba949d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1007fa5fdbaddbccbd506ad7d85fe509') in 0.017989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyShield03.FBX
+  artifactKey: Guid(c9805f3456f43a74291476c95be1f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyShield03.FBX using Guid(c9805f3456f43a74291476c95be1f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718edf304b2d8a131e66fff88249983a') in 0.015486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyDiamond.FBX
+  artifactKey: Guid(0191065febb0d584d8bc23b85663a44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyDiamond.FBX using Guid(0191065febb0d584d8bc23b85663a44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bd6043167bdbd52af231015fb87281') in 0.014405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalNutMega.FBX
+  artifactKey: Guid(acba92763bd38a44a92a106b55b5bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalNutMega.FBX using Guid(acba92763bd38a44a92a106b55b5bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c76ee388c87fb66852bf9b372869ad') in 0.016965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRockCluster04.FBX
+  artifactKey: Guid(559881a0eaeedf04b972475a2fcb4602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRockCluster04.FBX using Guid(559881a0eaeedf04b972475a2fcb4602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c170fda4d37a4c78d31b56827ef79a2d') in 0.016187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyIcicle01.FBX
+  artifactKey: Guid(198685a61e3caf94b978f6a44591810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyIcicle01.FBX using Guid(198685a61e3caf94b978f6a44591810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f278ee659b67d081204be1b7e0ff40') in 0.016849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyJet01.FBX
+  artifactKey: Guid(53f300559ccb4b04fa1fd4219b2ec683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyJet01.FBX using Guid(53f300559ccb4b04fa1fd4219b2ec683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d31adb823dc4ae97c5b49481c08f4b3') in 0.017250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMuzzle02.FBX
+  artifactKey: Guid(cea648c85a30d8f4896a178f947a8819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMuzzle02.FBX using Guid(cea648c85a30d8f4896a178f947a8819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ef7d2efe33550b40cb6efcff6dba8e') in 0.016495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullFullSmoothed.FBX
+  artifactKey: Guid(aea73ec3bb812c843815e9cea70c8188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullFullSmoothed.FBX using Guid(aea73ec3bb812c843815e9cea70c8188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c07f67f631d4efc36ff36020e039f') in 0.014287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalBolt.FBX
+  artifactKey: Guid(62a73fd069e7cac41a973db372f07602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalBolt.FBX using Guid(62a73fd069e7cac41a973db372f07602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94b9b4b2c4e6086615cb1479d6140f8') in 0.014087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyVineSpikyAlt.FBX
+  artifactKey: Guid(fb040115fe87a304aa36a016fddda485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyVineSpikyAlt.FBX using Guid(fb040115fe87a304aa36a016fddda485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba14bb0227f3ffa080f67b5ccab678d4') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullCraniumEvil.FBX
+  artifactKey: Guid(a484c699096b6a646beff4fe0010d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySkullCraniumEvil.FBX using Guid(a484c699096b6a646beff4fe0010d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e93205a99a493100e2c9cdb30bec32') in 0.017095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolygonPowerupSpeed.FBX
+  artifactKey: Guid(e367f2c4af749334ea2500ab4d843ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolygonPowerupSpeed.FBX using Guid(e367f2c4af749334ea2500ab4d843ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e060803af82fe21d50229fd48091d1d') in 0.017218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRock01.FBX
+  artifactKey: Guid(63950c8ea96727340a59393ea0447c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRoundRock01.FBX using Guid(63950c8ea96727340a59393ea0447c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5587888b71dd8f3b958486c7b5be459d') in 0.016409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyHoneyComb.FBX
+  artifactKey: Guid(78fae85354f20a14d84ead3ff0c81954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyHoneyComb.FBX using Guid(78fae85354f20a14d84ead3ff0c81954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c61aae41880bed204a7d6add61a482') in 0.017843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullets.FBX
+  artifactKey: Guid(c6a94961ea841304c9abb2ee042585b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyPowerBullets.FBX using Guid(c6a94961ea841304c9abb2ee042585b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a0ebdcebcbe3feffee0eb75efe177f') in 0.019522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySquareRock02.FBX
+  artifactKey: Guid(f4e8af8475c040c4ab864e5743b5c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySquareRock02.FBX using Guid(f4e8af8475c040c4ab864e5743b5c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ab16632428a10bf2dded48293b3fe9') in 0.015611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyStar01.FBX
+  artifactKey: Guid(0cfd12c0769a6c04491adc3c47c4d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyStar01.FBX using Guid(0cfd12c0769a6c04491adc3c47c4d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c8d189191d9be4217ec4fa5c3412a') in 0.020344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBullet.FBX
+  artifactKey: Guid(5896798959845b748b9019211c7e6e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBullet.FBX using Guid(5896798959845b748b9019211c7e6e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a485138f7ccf8031ecebc8c2412442ce') in 0.020317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyLeafHigh.FBX
+  artifactKey: Guid(11c3a3d0d100eba44ba53d584c8f4bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyLeafHigh.FBX using Guid(11c3a3d0d100eba44ba53d584c8f4bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a435e78360982481c7416174a3910e77') in 0.016435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainLow.FBX
+  artifactKey: Guid(3918068706be528408a519466b2c6e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyChainLow.FBX using Guid(3918068706be528408a519466b2c6e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78514d7be7d25370836cb10fe7b85db2') in 0.015175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyTorus03.FBX
+  artifactKey: Guid(6ca625a26eb81f447a49c0872f0983c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyTorus03.FBX using Guid(6ca625a26eb81f447a49c0872f0983c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222e5b88afa7dec459ebadc9789246d6') in 0.019029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalPipe.FBX
+  artifactKey: Guid(b5f75852ec2ba4d449fded6f94aff6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalPipe.FBX using Guid(b5f75852ec2ba4d449fded6f94aff6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c61ca8e46c256c8556e4cae99719680') in 0.021078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike2.FBX
+  artifactKey: Guid(25a76341b9dffb643a422788fa865c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoneSpike2.FBX using Guid(25a76341b9dffb643a422788fa865c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bcd070f3ca206ed700b8d551b6519e') in 0.020642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoulder01.FBX
+  artifactKey: Guid(0a1a59e2512cc3f45875d8c1a62d4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyBoulder01.FBX using Guid(0a1a59e2512cc3f45875d8c1a62d4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605138aa7099afd21a1841920df5eea') in 0.025495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySquareRock01High.FBX
+  artifactKey: Guid(6a6fd2388e8784a49bce70c0775b262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySquareRock01High.FBX using Guid(6a6fd2388e8784a49bce70c0775b262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c810f52e7eabbdcbf62cd5e3c050da33') in 0.022582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalNutHigh.FBX
+  artifactKey: Guid(097311a78a6e43241b9f01d5f41ebaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyMetalNutHigh.FBX using Guid(097311a78a6e43241b9f01d5f41ebaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5809f84ecbe599d0ed743072df8dd5') in 0.021580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCoinLow.FBX
+  artifactKey: Guid(55c9163d4a6ea4b49b1e187d80ff017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyCoinLow.FBX using Guid(55c9163d4a6ea4b49b1e187d80ff017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634c887383c2edcec8f2aaeed014cb58') in 0.022965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRocket2.FBX
+  artifactKey: Guid(35cca0486f82b20478afaeb140730f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolyRocket2.FBX using Guid(35cca0486f82b20478afaeb140730f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49daa021d112932cea2dbc547d8134b6') in 0.022925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySquareRock01.FBX
+  artifactKey: Guid(0db1f9049bbd72a49a9c36a3e14695ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Models/PolySquareRock01.FBX using Guid(0db1f9049bbd72a49a9c36a3e14695ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958591d672e0e72d9e758269f0dbca61') in 0.027199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.277946 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Environment
+  artifactKey: Guid(4b8dac498a38559408d9071420b0cb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Environment using Guid(4b8dac498a38559408d9071420b0cb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a6770916f0e789440880d2646745d4') in 0.010503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.913281 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Standard
+  artifactKey: Guid(5ff51a74251fa2d4fad7d1b5e0f69d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Standard using Guid(5ff51a74251fa2d4fad7d1b5e0f69d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fced3198fa332e95266a79306ca78808') in 0.006840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089532 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Standard/MinigunExplosionStandard.prefab
+  artifactKey: Guid(a1ec3759f09cc1243a3a85534f69815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Standard/MinigunExplosionStandard.prefab using Guid(a1ec3759f09cc1243a3a85534f69815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc548e60e4f614caa87dba5cd2d490b') in 0.222523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Standard/SniperExplosionStandard.prefab
+  artifactKey: Guid(d77692a268abd2f43a469fe329485901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Standard/SniperExplosionStandard.prefab using Guid(d77692a268abd2f43a469fe329485901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfa1103ee4197069e210831dc899f85') in 0.016258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.646467 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Materials/Sprites/PolySprite_AB.mat
+  artifactKey: Guid(c70fbf7926cd3244d8d9bb26deb84525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Materials/Sprites/PolySprite_AB.mat using Guid(c70fbf7926cd3244d8d9bb26deb84525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d77256fa13e4dea8b0cb77a1f07f8e9') in 0.108285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.904886 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/NukeSimple
+  artifactKey: Guid(73914199bb73f6b43b83cc462dad0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/NukeSimple using Guid(73914199bb73f6b43b83cc462dad0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40256eeb495dc9d5a0e3f8626ab9f784') in 0.006889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.769449 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/NukeSimple/NukeSimpleExplosionBlue.prefab
+  artifactKey: Guid(2938ed46bd5314d4d9783babead45adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/NukeSimple/NukeSimpleExplosionBlue.prefab using Guid(2938ed46bd5314d4d9783babead45adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7d1002836ed780e27eb0e8974fc272') in 0.014776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001825 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/NukeSimple/NukeSimpleExplosionRed.prefab
+  artifactKey: Guid(a3613dd087ed87c4c932903a5a389c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/NukeSimple/NukeSimpleExplosionRed.prefab using Guid(a3613dd087ed87c4c932903a5a389c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3625d1c79627878209eafca580159cec') in 0.017692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.864045 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility
+  artifactKey: Guid(bb9a318610dea0446a376f6fc649b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility using Guid(bb9a318610dea0446a376f6fc649b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176d9290f6a9cb3baa075ff38fc25412') in 0.007307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.606149 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility/FlashGrenadeExplosion.prefab
+  artifactKey: Guid(255a498f320b74a4a85faf9f5d206d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility/FlashGrenadeExplosion.prefab using Guid(255a498f320b74a4a85faf9f5d206d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6f7453914cd5ea970bbb313566c1f6') in 0.033891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.006979 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade
+  artifactKey: Guid(5cdd4fc54b1f41a47aa44d16b2817f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade using Guid(5cdd4fc54b1f41a47aa44d16b2817f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4329b4bf3718eef2936df207ad1005') in 0.007776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091489 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade/GrenadeExplosionBlue.prefab
+  artifactKey: Guid(106913ce1654d0b438bc171bad4fd783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade/GrenadeExplosionBlue.prefab using Guid(106913ce1654d0b438bc171bad4fd783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8024f0c6c95a723c4571eecd6bed69d3') in 0.013605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade/GrenadeExplosionPurple.prefab
+  artifactKey: Guid(0b51d3b0cc831e749a39f26a7ba0d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade/GrenadeExplosionPurple.prefab using Guid(0b51d3b0cc831e749a39f26a7ba0d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9019b1799d31d578dac1a0f1e9f17f70') in 0.014676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.211792 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket
+  artifactKey: Guid(83dd012f2fe1d7c4cb17b5a2f5a51ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket using Guid(83dd012f2fe1d7c4cb17b5a2f5a51ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63cbe48b6587b8a89978265af9b3428') in 0.006636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075667 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket/RocketExplosionBlue.prefab
+  artifactKey: Guid(f73aa1558d792484a84e065c616866b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket/RocketExplosionBlue.prefab using Guid(f73aa1558d792484a84e065c616866b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc14958cd867355d759528b27537be7f') in 0.014265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket/RocketExplosionRed.prefab
+  artifactKey: Guid(1ef475ebfb44d964bb2037eaa9db1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket/RocketExplosionRed.prefab using Guid(1ef475ebfb44d964bb2037eaa9db1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8d69a3f7a76a4829bef88f6af21139') in 0.031392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 387.768309 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Gore/PolyGoreBigSND.prefab
+  artifactKey: Guid(486c77be812473f48b99442f16049de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Gore/PolyGoreBigSND.prefab using Guid(486c77be812473f48b99442f16049de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e061fc24322fc35fc6a07dd937cfd1') in 0.010409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.448298 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyAntimatterMissileSND.prefab
+  artifactKey: Guid(19e3728972664534ca6b822384d2e965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyAntimatterMissileSND.prefab using Guid(19e3728972664534ca6b822384d2e965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bffb690e2332e73d75a8050782935d') in 0.007733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyBlackHoleMissileSND.prefab
+  artifactKey: Guid(84ba801dba065ee48b738aa11a2029b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyBlackHoleMissileSND.prefab using Guid(84ba801dba065ee48b738aa11a2029b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565b08714e4b4e4f41448d1d4ea541bc') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003168 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyBulletMissileSND.prefab
+  artifactKey: Guid(07ce6accd60d3304d9e4d7213ff2fc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyBulletMissileSND.prefab using Guid(07ce6accd60d3304d9e4d7213ff2fc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f215a62ccb55021a9fd32369c3c014') in 0.007690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyFlashGrenadeMissileSND.prefab
+  artifactKey: Guid(adc2539667756bf44adc4f6ac1e8850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyFlashGrenadeMissileSND.prefab using Guid(adc2539667756bf44adc4f6ac1e8850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46476a10fd23e0293f73767b88013f0') in 0.008568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyIceMissileSND.prefab
+  artifactKey: Guid(8d3d4b27548d71846b57635c56d3d240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyIceMissileSND.prefab using Guid(8d3d4b27548d71846b57635c56d3d240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee7d145cfe5c72efcc2c9e91dfe8af6') in 0.007452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLaserMissileSND.prefab
+  artifactKey: Guid(c81510a7e653df34484d8165bee1eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLaserMissileSND.prefab using Guid(c81510a7e653df34484d8165bee1eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1aae01dd3bcfa70d61fee45b3fd580') in 0.007745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLiquidAcidMissileSND.prefab
+  artifactKey: Guid(438f30aa822c78746a6f3a05180fb41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLiquidAcidMissileSND.prefab using Guid(438f30aa822c78746a6f3a05180fb41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02cdee32ada3da4224cec297eaf7e99') in 0.007498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyNatureMissileSND.prefab
+  artifactKey: Guid(9150517e6165b0f41a4b19231fc8c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyNatureMissileSND.prefab using Guid(9150517e6165b0f41a4b19231fc8c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0afcb66b49ff8bcfa3276afc6e0537') in 0.007104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyRocketMissileSND.prefab
+  artifactKey: Guid(867c17ae7e3d7444bbb246ca664e6a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyRocketMissileSND.prefab using Guid(867c17ae7e3d7444bbb246ca664e6a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bfa685b2d7a12df22bd5b005dbaee7') in 0.006653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLiquidWaterMissileSND.prefab
+  artifactKey: Guid(c720903552f7e72458db18acf58c22f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLiquidWaterMissileSND.prefab using Guid(c720903552f7e72458db18acf58c22f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82020773990a9421e177145db4f6aa5') in 0.006554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolySkullMissileSND.prefab
+  artifactKey: Guid(163ebb7508f660d4ca726b9603ce41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolySkullMissileSND.prefab using Guid(163ebb7508f660d4ca726b9603ce41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0579b5ce0c7fd25944d86ecf23e4492') in 0.010101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyProtonMissileSND.prefab
+  artifactKey: Guid(41ef251dfbcaf9b438c0eb0ed72ed92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyProtonMissileSND.prefab using Guid(41ef251dfbcaf9b438c0eb0ed72ed92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be992fe4e6d89faefd74938c202240a') in 0.008372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyStormMissileSND.prefab
+  artifactKey: Guid(ce6807a839055dd4bb9385505edf2d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyStormMissileSND.prefab using Guid(ce6807a839055dd4bb9385505edf2d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f97ab3cc22c9dd564e69769c2e59cc8') in 0.008646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyShadowMissileSND.prefab
+  artifactKey: Guid(ae0cf500d45b2ea4f92f1d1882a3cc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyShadowMissileSND.prefab using Guid(ae0cf500d45b2ea4f92f1d1882a3cc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4583d46bbaa106a889d66e82c61f5c') in 0.008266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLiquidOilMissileSND.prefab
+  artifactKey: Guid(c434e5f2a4a624443bc5e30a2d3dc162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyLiquidOilMissileSND.prefab using Guid(c434e5f2a4a624443bc5e30a2d3dc162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a424007cf014196838b6a35887a8bd') in 0.007150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyStoneMissileSND.prefab
+  artifactKey: Guid(d0db2ed5808dafa44a58583c86aa54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EFFECTs/Polygon Arsenal/Sound/Prefabs/Missile/PolyStoneMissileSND.prefab using Guid(d0db2ed5808dafa44a58583c86aa54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e86055f605799bd68a3061bbc39d7') in 0.009552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.058116 seconds.
+  path: Assets/Scripts/Tower Data
+  artifactKey: Guid(68d0aa0667296fe49b9efc2f0101ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower Data using Guid(68d0aa0667296fe49b9efc2f0101ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc7de6a9a6a88f81105e60c7a59ed10') in 0.006898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023589 seconds.
+  path: Assets/Scripts/Tower Data/BaseTurret.asset
+  artifactKey: Guid(afc84888dd38f704d92bd8d9662f4a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower Data/BaseTurret.asset using Guid(afc84888dd38f704d92bd8d9662f4a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cd7062a65bb77743fbd477b84fbea1') in 0.124970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.313050 seconds.
+  path: Assets/Scripts/Tower Data/RocketLauncher.asset
+  artifactKey: Guid(55ee017586c568e46ba4684c273177cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower Data/RocketLauncher.asset using Guid(55ee017586c568e46ba4684c273177cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10acb85b08ec0e13bd21b6f8d5af37f') in 0.006811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.829008 seconds.
+  path: Assets/Prefabs/Missle Prefab.prefab
+  artifactKey: Guid(6e73d3608f0c1054fa15bcd96061202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Missle Prefab.prefab using Guid(6e73d3608f0c1054fa15bcd96061202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00543f3921528757740354a73c7c2499') in 0.045054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.231226 seconds.
+  path: Assets/Prefabs/Missile Launcher.prefab
+  artifactKey: Guid(8e71c4a3ef552ce4a9a88876157ef597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Missile Launcher.prefab using Guid(8e71c4a3ef552ce4a9a88876157ef597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2afa4914504530b72b2ff156ec458b') in 0.023218 seconds 

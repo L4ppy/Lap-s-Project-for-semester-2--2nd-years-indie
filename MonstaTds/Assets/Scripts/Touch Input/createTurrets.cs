@@ -52,7 +52,7 @@ public class createTurrets : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (!Physics.Raycast(ray, out hit))// && (hit.collider.gameObject.CompareTag("placable")))
                     return;
-                FocusObj.transform.position = hit.point + new Vector3(0, 1, 0);
+                FocusObj.transform.position = hit.point + new Vector3(0, 2, 0);
                 //  FocusObj.transform.position = new Vector3(hit.transform.position.x, hit.transform.position.y, FocusObj.transform.position.z);
             }
         }
