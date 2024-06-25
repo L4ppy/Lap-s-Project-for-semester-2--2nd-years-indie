@@ -8,22 +8,13 @@ public class newscript : MonoBehaviour
     public GameObject Turret, laserTurret, rocketTurret;
     public GameObject FocusObj;
 
-    public void CreateTurret()
+    public void CreateTurret(Vector3 position)
     {
         FocusObj = Instantiate(Turret, position, Turret.transform.rotation);
         FocusObj.GetComponent<Collider>().enabled = false;
     }
-    public void CreateLaserTurret(Vector3 position)
-    {
-        FocusObj = Instantiate(Turret, position, Turret.transform.rotation);
-        FocusObj.GetComponent<Collider>().enabled = false;
-    }
-    public void CreateRocketTurret(Vector3 position)
-    {
-        FocusObj = Instantiate(Turret, position, Turret.transform.rotation);
-        FocusObj.GetComponent<Collider>().enabled = false;
-    }
-
+    
+    
     void Update()
     {
         // Handle mouse input
@@ -86,9 +77,9 @@ public class newscript : MonoBehaviour
     {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(inputPosition);
-        if (Physics.Raycast(ray, out hit) && hit.collider.gameObject.CompareTag("platform"))
+        if (Physics.Raycast(ray, out hit) && hit.collider.gameObject.CompareTag("Placable"))
         {
-            hit.collider.gameObject.tag = "occupied";
+            hit.collider.gameObject.tag = "Occupied";
             FocusObj.transform.position = new Vector3(hit.collider.gameObject.transform.position.x,
                 FocusObj.transform.position.y, hit.collider.gameObject.transform.position.z);
         }
